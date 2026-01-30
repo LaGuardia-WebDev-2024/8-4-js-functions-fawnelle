@@ -3,19 +3,30 @@ void setup(){
   size(600, 400); 
   background(255,255,255);
 
-  var textX = random(50, 550);
-  var textY = random(50, 350);
-  var yourName = "Your Name";
+drawName();
+drawName();
+drawName();
 
-  fill(241,9,55);
-  textSize(40);
-  text("Hiiii, " + yourName, textX, textY);
 }
 
 //🟢Draw Function - Runs on Repeat
 draw = function(){  
 
 };
+
+var drawName = function(){
+ var textX = random(50, 550);
+  var textY = random(50, 350);
+  var yourName = "jane";
+
+  fill(241,9,55);
+  textSize(40);
+  text("Hiiii, " + yourName, textX, textY);
+ 
+}
+
+
+
 
 //🟡Extra FUN Features Ms. Hall Added
 //Proceed with Caution (and Curiosity!)
